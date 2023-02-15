@@ -1,0 +1,55 @@
+/* $radius is the parameter of the function */
+.card-container {
+  background-color: white;
+  max-width: 350px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  /* using the mixins function */
+}
+
+.card-container img {
+  height: 15rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-container .card_content {
+  padding: 2rem;
+}
+
+.card-container .card_title {
+  margin: 0;
+  color: black;
+}
+
+.card-container .card_description {
+  margin: 0;
+  color: #999;
+}
+
+.card-container_dark {
+  background-color: black;
+}
+
+.card-container_dark .card_title {
+  color: white;
+}
+
+body {
+  font-family: "Poppins", Helvetica, sans-serif;
+  /* variable usage */
+  background-color: #ecf2f8;
+  padding: 2rem;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* using the mixins function */
+}
+/*# sourceMappingURL=style.css.map */
