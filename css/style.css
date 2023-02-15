@@ -1,45 +1,68 @@
 /* $radius is the parameter of the function */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Open+Sans&display=swap");
 .card-container {
   background-color: white;
   max-width: 350px;
   margin: 0 auto;
+  font-size: 13px;
   border-radius: 0.5rem;
   /* using the mixins function */
 }
 
-.card-container img {
-  height: 15rem;
+.card-container #drawer-photo {
+  width: 100%;
+  height: auto;
   background-size: cover;
   background-position: center center;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 
-.card-container .card_content {
-  padding: 2rem;
+.card-container #profile-photo {
+  width: 15%;
+  border-radius: 50%;
 }
 
-.card-container .card_title {
+.card-container .profile-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+}
+
+.card-container .profile-info {
+  margin-top: 5px;
+}
+
+.card-container #name, .card-container #date {
   margin: 0;
-  color: black;
 }
 
-.card-container .card_description {
-  margin: 0;
-  color: #999;
+.card-container .card_content, .card-container #profile-photo {
+  padding: 0 1.5rem;
 }
 
-.card-container_dark {
-  background-color: black;
+.card-container p {
+  color: #9eafc2;
 }
 
-.card-container_dark .card_title {
-  color: white;
+.card-container h4 {
+  color: #6d7f97;
+}
+
+.card-container #share-btn {
+  background-color: #ecf2f8;
+  border: none;
+  border-radius: 50%;
+  width: 15%;
+  height: auto;
 }
 
 body {
-  font-family: "Poppins", Helvetica, sans-serif;
+  font-family: "Manrope", sans-serif;
   /* variable usage */
   background-color: #ecf2f8;
-  padding: 2rem;
+  padding: 0 1.5rem;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
