@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
+  <script language="JavaScript" type="text/javascript"
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
 
@@ -37,11 +41,20 @@
     </div>
 
 
-    <div class="profile-section">
+    <div id="profile-section">
       <img id="profile-photo" src="/images/avatar-michelle.jpg" alt="">
       <div class="profile-info">
         <h4 id="name">Michelle Appleton</h4>
         <p id="date">28 Jun 2020</p>
+      </div>
+      <button id="share-btn" type="submit"><img src="images/icon-share.svg"></button>
+    </div>
+    <div class="share-section">
+      <p>share</p>
+      <div class="share-icons">
+        <img src="images/icon-facebook.svg" alt="">
+        <img src="images/icon-twitter.svg" alt="">
+        <img src="images/icon-pinterest.svg" alt="">
       </div>
       <button id="share-btn" type="submit"><img src="images/icon-share.svg"></button>
     </div>

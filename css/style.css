@@ -23,11 +23,15 @@
   border-radius: 50%;
 }
 
-.card-container .profile-section {
+.card-container #profile-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 15px 0;
+}
+
+.card-container .hidden {
+  display: none;
 }
 
 .card-container .profile-info {
@@ -57,6 +61,13 @@
   width: 15%;
   height: auto;
   margin-left: 20px;
+}
+
+.card-container .share-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
 }
 
 body {
